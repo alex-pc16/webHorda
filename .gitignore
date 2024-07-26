@@ -1,0 +1,37 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environments
+.env
+djangoV5/
+venv/
+ENV/
+env/
+*.venv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+._*
+.Spotlight-V100
+.Trashes

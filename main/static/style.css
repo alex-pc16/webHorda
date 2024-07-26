@@ -1,0 +1,105 @@
+:root{
+    --title-red:red;
+}
+
+header{
+    height: 100vh;
+    background-color: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.header-content{
+    text-align: center;
+    
+    text-transform: uppercase;
+    color: var(--title-red);
+    font-family: "Merriweather", serif;
+    
+    font-style: italic; 
+    text-align: center;
+}
+
+.club{
+    font-size: 8vh;
+    letter-spacing: 10px ;
+}
+
+.horda{
+    font-size: 20vh;
+    letter-spacing: 40px;
+    font-weight: 900;
+}
+.letter-grater{
+    font-size: 30vh;
+    position: relative;
+    top: 20px;
+}
+
+.header-content p{
+    margin: 20px;
+    font-weight: 900;
+    font-size: 5vh;
+    letter-spacing: 6px;
+}
+
+
+
+nav{
+    display: grid;
+    grid-template: "";
+    background-color: rgba(0, 0, 0, 0.839);
+    color: white;
+    grid-template-columns: 100px 1fr 200px;
+    align-items: center;
+    gap: 3em;
+    padding: 1.2em;
+    margin-bottom: 4em;
+}
+.logo img{
+    width: 100%;
+}
+.logo{
+    width: 70px;
+}
+
+.nav-main{
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;   
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1em;
+    transition: 0.3s;
+
+}
+
+nav a:hover{
+    background-color: rgba(240, 248, 255, 0.091);
+    border-radius: 1em;
+    color: var(--title-red);
+    
+}
+.cta{
+    justify-self: center;
+    
+}
+
+.button{
+    background-color: red;
+    border-radius: 1em;
+    padding: 1em 1.5em;
+}
